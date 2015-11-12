@@ -1,25 +1,5 @@
 <resources>
 
-    <!--
-        &lt;!&ndash; Base application theme. &ndash;&gt;
-        &lt;!&ndash;<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        </style>&ndash;&gt;
-
-
-
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-    &lt;!&ndash;状态栏颜色&ndash;&gt;
-    <item name="colorPrimaryDark">@color/Indigo_colorPrimaryDark</item>
-    &lt;!&ndash;Toolbar颜色&ndash;&gt;
-    <item name="colorPrimary">@color/Indigo_colorPrimary</item>
-    &lt;!&ndash;返回键样式&ndash;&gt;
-    <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
-    </style>
-
-    <style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
-    <item name="color">@android:color/white</item>
-    </style>
-    -->
     <style name="style_RadioButton">
         <item name="android:button">@null</item>
         <item name="android:background">@null</item>
@@ -30,7 +10,6 @@
     </style>
 
     <style name="AppTheme" parent="@style/AppBaseTheme">
-
 
     </style>
 
@@ -61,7 +40,7 @@
         <item name="color">@android:color/white</item>
     </style>
 
-    <!--溢出菜单文字样式-->
+    <!--option菜单文字样式-->
     <style name="OverflowMenuTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large">
         <item name="android:textColor">@color/overflowTextColor</item>
     </style>

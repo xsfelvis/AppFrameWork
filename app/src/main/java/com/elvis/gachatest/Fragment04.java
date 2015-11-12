@@ -12,8 +12,8 @@ public class Fragment04 extends android.support.v4.app.Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View newsLayout = inflater.inflate(R.layout.fragment04, container, false);
-        return newsLayout;
+        View centerLayout = inflater.inflate(R.layout.fragment04, container, false);
+        return centerLayout;
     }
 
 

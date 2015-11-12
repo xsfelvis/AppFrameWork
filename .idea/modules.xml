@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AppFrameWork.iml" filepath="$PROJECT_DIR$/AppFrameWork.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/viewPager+fragment.iml" filepath="$PROJECT_DIR$/viewPager+fragment.iml" />
     </modules>
   </component>
 </project>

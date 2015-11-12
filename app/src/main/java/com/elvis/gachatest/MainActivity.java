@@ -224,7 +224,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //此处进行Item逻辑判断处理
         return super.onOptionsItemSelected(item);
     }
-    //显示出optionmenu的按钮图标
+    //显示出optionmenu的按钮图标，使用反射让其显示出来
 
     @Override
     public boolean onMenuOpened(int featureId, Menu menu) {
