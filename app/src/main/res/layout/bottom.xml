@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/bottom"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/mainpage_mycrircle_leftview_item_auth_name"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/id_tab_mycircle"
+            style="@style/style_RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:drawableTop="@drawable/mainpage_tab_mycircle"
+            android:text="我的圈子"
+            />
+
+        <RadioButton
+            android:id="@+id/id_tab_discovery"
+            style="@style/style_RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:drawableTop="@drawable/mainpage_tab_discovery"
+            android:text="发现"/>
+
+        <RadioButton
+            android:id="@+id/id_tab_message"
+            style="@style/style_RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:drawableTop="@drawable/mainpage_tab_message"
+            android:text="消息"/>
+
+        <RadioButton
+            android:id="@+id/id_tab_setting"
+            style="@style/style_RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:drawableTop="@drawable/mainpage_tab_setting"
+            android:text="个人中心"
+            />
+
+    </RadioGroup>
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AppFrame</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">你想选择啥</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawopen">打开侧滑栏</string>
+    <string name="drawclose">关闭侧滑栏</string>
+    <string name="zone">个人中心</string>
+    <string name="weather">天气</string>
+    <string name="offline">离线</string>
+    <string name="theme">夜间</string>
+    <string name="search">搜索</string>
+    <string name="scan">扫一扫</string>
+    <string name="setting">设置</string>
+</resources>

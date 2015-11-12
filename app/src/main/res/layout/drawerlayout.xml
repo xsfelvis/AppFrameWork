@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/id_drawerlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/mainpage_mycrircle_leftview_item_auth_name"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/id_tab_mycircle"
+                style="@style/style_RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:drawableTop="@drawable/mainpage_tab_mycircle"
+                android:text="我的圈子"
+                />
+
+            <RadioButton
+                android:id="@+id/id_tab_discovery"
+                style="@style/style_RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:drawableTop="@drawable/mainpage_tab_discovery"
+                android:text="发现"/>
+
+            <RadioButton
+                android:id="@+id/id_tab_message"
+                style="@style/style_RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:drawableTop="@drawable/mainpage_tab_message"
+                android:text="消息"/>
+
+            <RadioButton
+                android:id="@+id/id_tab_setting"
+                style="@style/style_RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:drawableTop="@drawable/mainpage_tab_setting"
+                android:text="个人中心"
+                />
+
+        </RadioGroup>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/id_viewpager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/radioGroup"
+            >
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/id_viewpager"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mainpage_menu_control"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/id_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#E0EEE0"
+        android:orientation="vertical">
+
+        <com.elvis.utils.CircleImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/xsfelvis"
+            app:border_color="@color/page_item_black_50"
+            app:border_width="2dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/banner_left"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:text="xsfelvis"
+                android:textSize="15sp"
+
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/banner_right"
+                />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/id_lv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:cacheColorHint="#00000000"
+            android:footerDividersEnabled="false"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent">
+        </ListView>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>
